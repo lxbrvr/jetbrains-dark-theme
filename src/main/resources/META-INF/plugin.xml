@@ -1,0 +1,18 @@
+<idea-plugin>
+  <id>com.lxbrvr.darktheme</id>
+  <name>DarkTheme</name>
+  <version>1.0</version>
+  <category>Themes</category>
+  <vendor email="to100100100@gmail.com" url="https://github.com/lxbrvr">Alexander Abrosimov</vendor>
+  <description><![CDATA[
+      It's a simple and minimalistic dark theme. The darkula is used for syntax highlighting.
+    ]]></description>
+  <change-notes></change-notes>
+  <idea-version since-build="173.0"/>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="05d6ba3e-2217-48db-93ca-0f0802339c5d" path="/darktheme.theme.json"/>
+  </extensions>
+  <actions></actions>
+
+</idea-plugin>

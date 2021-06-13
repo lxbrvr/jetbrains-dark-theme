@@ -1,0 +1,227 @@
+{
+  "name": "darktheme",
+  "dark": true,
+  "author": "",
+  "editorScheme": "/darktheme.xml",
+  "colors": {
+    "accentColor": "#49f6be",
+    "backgroundColor": "#1e1e1e",
+    "secondaryBackgroundColor": "#333333",
+    "buttonColor": "#2a2a2a",
+    "borderColor": "#1e1e1e",
+    "hoverBackgroundColor": "#333333",
+    "selectionBackgroundColor": "#303030",
+    "foregroundColor": "#b0bec5",
+    "textColor": "#727272",
+    "textFieldsColor": "#2a2a2a",
+    "disabledTextColor": "#595959"
+  },
+  "ui": {
+    "*": {
+      "acceleratorForeground": "textColor",
+      "acceleratorSelectionForeground": "textColor",
+      "background": "backgroundColor",
+      "borderColor": "borderColor",
+      "disabledBorderColor": "buttonColor",
+      "inactiveBackground": "backgroundColor",
+      "inactiveForeground": "textColor",
+      "infoForeground": "textColor",
+      "disabledBackground": "backgroundColor",
+      "selectionBackground": "selectionBackgroundColor",
+      "foreground": "foregroundColor"
+    },
+    "ActionButton": {
+      "hoverBackground": "hoverBackgroundColor",
+      "hoverBorderColor": "hoverBackgroundColor",
+      "pressedBackground": "hoverBackgroundColor",
+      "pressedBorderColor": "hoverBackgroundColor"
+    },
+    "Borders": {
+      "color": "borderColor",
+      "ContrastBorderColor": "borderColor"
+    },
+    "Button": {
+      "default": {
+        "endBackground": "buttonColor",
+        "endBorderColor": "buttonColor",
+        "focusColor": "accentColor",
+        "focusedBorderColor": "backgroundColor",
+        "foreground": "foregroundColor",
+        "shadowColor": "backgroundColor",
+        "startBackground": "buttonColor",
+        "startBorderColor": "buttonColor"
+      },
+      "endBackground": "buttonColor",
+      "endBorderColor": "buttonColor",
+      "focusedBorderColor": "backgroundColor",
+      "foreground": "foregroundColor",
+      "shadowWidth": 0,
+      "startBackground": "buttonColor",
+      "startBorderColor": "buttonColor"
+    },
+    "CheckBox": {
+      "disabledText": "disabledTextColor"
+    },
+    "CompletionPopup": {
+      "selectionBackground": "hoverBackgroundColor",
+      "selectionInactiveBackground": "hoverBackgroundColor"
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "nonEditableBackground": "buttonColor"
+      },
+      "modifiedItemForeground": "accentColor",
+      "nonEditableBackground": "buttonColor",
+      "padding": "5,6,5,6"
+    },
+    "Component": {
+      "focusColor": "accentColor",
+      "focusWidth": 1
+    },
+    "DefaultTabs": {
+      "underlineColor": "accentColor",
+      "hoverBackground": "hoverBackgroundColor"
+    },
+    "Editor": {
+      "background": "backgroundColor"
+    },
+    "EditorTabs": {
+      "tabInsets": "-8,10,-8,10",
+      "underlineColor": "accentColor",
+      "hoverBackground": "hoverBackgroundColor",
+      "underlinedTabBackground": "backgroundColor",
+      "inactiveUnderlineColor": "#484848"
+    },
+    "Link": {
+      "activeForeground": "accentColor",
+      "hoverForeground": "accentColor",
+      "pressedForeground": "accentColor",
+      "visitedForeground": "accentColor"
+    },
+    "List": {
+      "rowHeight": 27
+    },
+    "Menu": {
+      "border": "6,5,6,5",
+      "separatorColor": "backgroundColor"
+    },
+    "MenuItem": {
+      "border": "6,5,6,5"
+    },
+    "Notification": {
+      "background": "backgroundColor",
+      "borderColor": "secondaryBackgroundColor",
+      "errorBackground": "backgroundColor",
+      "errorBorderColor": "secondaryBackgroundColor",
+      "foreground": "foregroundColor",
+      "MoreButton": {
+        "background": "buttonColor",
+        "foreground": "foregroundColor",
+        "innerBorderColor": "buttonColor"
+      },
+      "ToolWindow": {
+        "errorBackground": "backgroundColor",
+        "errorBorderColor": "secondaryBackgroundColor",
+        "informativeBackground": "backgroundColor",
+        "informativeBorderColor": "secondaryBackgroundColor",
+        "warningBackground": "backgroundColor",
+        "warningBorderColor": "secondaryBackgroundColor"
+      }
+    },
+    "Plugins": {
+      "hoverBackground": "selectionBackgroundColor",
+      "lightSelectionBackground": "selectionBackgroundColor",
+      "Button": {
+        "installForeground": "accentColor",
+        "installBorderColor":"accentColor",
+        "installFillForeground": "backgroundColor",
+        "installFillBackground": "accentColor"
+      }
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "backgroundColor"
+      }
+    },
+    "ProgressBar": {
+      "background": "backgroundColor",
+      "foreground": "accentColor",
+      "indeterminateEndColor": "accentColor",
+      "indeterminateStartColor": "accentColor",
+      "progressColor": "accentColor",
+      "selectionBackground": "secondaryBackgroundColor",
+      "trackColor": "secondaryBackgroundColor"
+    },
+    "RadioButton": {
+      "disabledText": "disabledTextColor"
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "secondaryBackgroundColor",
+        "selectedForeground": "foregroundColor"
+      }
+    },
+    "SearchMatch": {
+      "endBackground": "accentColor",
+      "startBackground": "accentColor"
+    },
+    "Slider": {
+      "buttonColor": "accentColor",
+      "buttonBorderColor": "accentColor"
+    },
+    "StatusBar": {
+      "hoverBackground": "hoverBackgroundColor"
+    },
+    "TabbedPane": {
+      "underlineColor": "accentColor"
+    },
+    "Table": {
+      "cellNoFocusBorder": "7,5,7,5",
+      "focusCellHighlightBorder": "7,5,7,5"
+    },
+    "TableHeader": {
+      "cellBorder": "10,0,10,0"
+    },
+    "TextArea": {
+      "background": "textFieldsColor"
+    },
+    "TextField": {
+      "background": "textFieldsColor"
+    },
+    "Tree": {
+      "rowHeight": 27,
+      "foreground": "textColor",
+      "selectionInactiveBackground": "selectionBackgroundColor"
+    },
+    "ToggleButton": {
+      "onBackground": "accentColor",
+      "onForeground": "backgroundColor"
+    },
+    "WelcomeScreen": {
+      "Details.background": "backgroundColor",
+      "SidePanel.background": "backgroundColor",
+      "background": "backgroundColor",
+      "borderColor": "backgroundColor",
+      "captionForeground": "foregroundColor",
+      "footerForeground": "foregroundColor",
+      "headerBackground": "backgroundColor",
+      "headerForeground": "foregroundColor",
+      "Projects": {
+        "actions.background": "hoverBackgroundColor",
+        "background": "secondaryBackgroundColor",
+        "selectionBackground": "secondaryBackgroundColor",
+        "selectionInactiveBackground": "secondaryBackgroundColor"
+      }
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default.Dark": "#1e1e1e",
+      "Checkbox.Background.Selected.Dark": "#1e1e1e",
+      "Checkbox.Border.Selected.Dark": "#727272",
+      "Checkbox.Focus.Wide.Dark": "#49f6be",
+      "Checkbox.Focus.Thin.Default.Dark": "#49f6be",
+      "Checkbox.Foreground.Selected.Dark": "#49f6be"
+    }
+  }
+}
